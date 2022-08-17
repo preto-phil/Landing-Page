@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container 1: Header logo */
+
+.one {
+    display: flex;
+}
+
+.logo {
+
+}
+
+a {
+
+}
+
+/* Container 2: Awesome placeholder */
+
+.two {
+    display: flex;
+}
+
+
+/* Container 3: Random info */
+
+.three {
+    display: flex;
+}
+
+
+/* Container 4: Images */
+
+.four {
+    display: flex;
+}
+
+
+/* Container 5: Quote */
+
+.five {
+    display: flex;
+}
+
+
+/* Container 6: Sign up */
+
+.six {
+    display: flex;
+}
+
+
+/* Container 7: Footer */
+
+.seven {
+    display: flex;
+}
+
