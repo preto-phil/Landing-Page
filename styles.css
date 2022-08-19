@@ -2,15 +2,19 @@ body {
     display: flex;
     flex-direction: column;
     background-color: grey;
+    font-family: sans-serif;
+    flex: 1;
 }
 
 /* Container 1: Header logo */
 
 .one {
     display: flex;
-    background-color: rgb(112, 245, 245);
-    padding: 16px;
+    background-color: rgb(54, 52, 51);
     gap: 10px;
+    padding: 16px 200px;
+    color: white;
+    font-weight: 700;
 }
 
 .logo {
@@ -20,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /* Container 2: Awesome placeholder */
@@ -125,8 +129,7 @@ a {
 
 .five-1 {
     font-size: 24px;
-    font-weight: 400; 
-    font-family: ;   
+    font-weight: 400;   
     color: black;
 
 }
@@ -134,7 +137,7 @@ a {
 .five-2 {
     font-size: 12px;
     font-weight: 300; 
-    font-family: ;   
+
     color: black;
 }
 
@@ -142,41 +145,51 @@ a {
 
 .six {
     display: flex;    
-    background-color: rgb(245, 255, 112);
+    background-color: rgb(36, 117, 238);
+    color: white;
     margin: 50px;
+    border-radius: 5px;
 }
 
 .six-1 {
     display: flex;
     flex-direction: column;
+    padding: 45px 0px 45px 90px;
+    gap: 5px;
 }
 
 #six-1-1 {
-    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 #six-1-2 {
-    padding: 10px;    
+    font-size: 12px;
 }
 
 .six-2 {
-    background-color: aquamarine;
-    margin-left: auto;
+
+    margin-left: 0px;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 200px;
     display: flex;
 }
 
 #six-2-1 {
-    
+    background-color: rgb(36, 117, 238);
+    color: white;
+    padding: 5px 15px;
+    border-color: white;
+    border-radius: 6px;
 }
 
 /* Container 7: Footer */
 
 .seven {
     display: flex;
-    background-color: rgb(255, 155, 125);
+    background-color: rgb(54, 52, 51);
+    color: white;
     justify-content: center;
     align-items: center;
     padding: 10px;
