@@ -72,7 +72,7 @@ a {
 }
 
 .two-2 {
-    height: 200px;
+    height: auto;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -90,6 +90,11 @@ a {
     */
 }
 
+.LOTR img {
+    height: auto;
+    width: 550px;
+    margin-left: 250px;
+}
 
 /* Container 3: Random info */
 
